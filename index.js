@@ -13,7 +13,7 @@ const port = process.env.PORT || 5000
 
 app.use(express.json());
 app.use(cors({
-    origin: [ port, "http://localhost:5173"],
+    origin: [ "https://book-store-frontend-hgdn.vercel.app/", "http://localhost:5173"],
     credentials: true,
 }))
 
